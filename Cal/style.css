@@ -1,0 +1,113 @@
+/* Universal Changes */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #383232;
+}
+
+/* Header or Navbar Changes */
+.bg{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5d5f61;
+    box-shadow: 0 0 20px #000;
+}
+
+.logo{
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+/* "CALCULATOR(Logo)" Changes */
+.logobar{
+    list-style: none;
+    display: flex;
+    pointer-events: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: #000;
+    margin-right: 1228px;
+}
+
+/* CALCULATOR Body */
+.calc-body{
+    width: 520px;
+    height: 580px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 400px;
+    box-shadow: 0 8px 50px -7px #000;
+    background:  #1f2327;
+}
+
+/* CALCULATOR Display Screen */
+.calc-screen{
+    background-color: #1f2327;
+}
+
+/* Input-Output Digits on Screen */
+.screen{
+    font-size: 3.5rem;
+    text-align: right;
+    color: #fff;
+    background-color:  #1f2327;  
+    width: 500px; 
+    height: 110px; 
+    margin: auto;
+    padding-top: 15px;
+}
+         
+/* Digits Buttons Full Box Changes */
+.calc-button-row{
+    margin-top: 10px;
+    display: table;
+    width: 520px; /* -----Digits Button Full Box----- */
+}
+
+/* Digits Buttons Boxes Changes */
+.calc-button-row button{
+    display: table-cell;
+    width: 25%; /* -----Digits Button Single-Single Boxes----- */
+    background:  #6f7172;
+    color: #000;
+    height: 92px; /* -----Digits Button Full Box----- */
+    font-size: 1.3rem;
+    border: none;
+    border-color: #3C4847;
+    border-width: 1px 1px 0px 0;
+    border-style: solid;
+}
+
+/* "AC" Digits Button Changes */
+.calc-button-row button.ac{
+    font-weight: 500;
+    color: #ee772d;
+}
+
+/* "(, ), /, *, -, +, =" Digits Button Changes */
+.calc-button-row button.opt{
+    color: #ffbc56;
+}
+
+.calc-button-row button:nth-child(4n){
+    border-right: none;
+}
+
+/* All Digits Button Click Show */
+.calc-button-row button:active{
+    position: relative;
+    top: 1.5px;
+}
+
+/* All Digits Button Shows Changing Color on Passing Arrow Cursor */
+.calc-button-row button:hover{
+    background: #3e4b5c;
+}
