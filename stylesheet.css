@@ -1,0 +1,112 @@
+/* Universal Changes */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(235, 196, 146);
+}
+
+/* Header or Navbar Changes */
+.bg{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2327;
+    box-shadow: 0 0 20px #000;
+}
+
+.logo{
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+/* "CALCULATOR(Logo)" Changes */
+.logobar{
+    list-style: none;
+    display: flex;
+    pointer-events: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: #ee772d;
+}
+
+/* Calculator, Age Calculator Text Moves Vertical*/
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    pointer-events: none;
+    gap: 20px;
+    margin-right: 80px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+/* Calculator, Age Calculator Text Changes */
+.nav-item a{
+    text-decoration: none;
+}
+
+/* Add a Hover Effect */
+.navbar-nav :hover .nav-link{
+    color:  #ee772d !important /* Change the text color on hover */
+}
+
+/* To set limit in background color of ul on opening of Toggler */
+@media(max-width:767px){
+    .ul-bg{
+        background-color: #5d5f61;
+    }
+}
+
+/* Calculator Image */
+img{
+    width: 300px;
+    height: 330px;
+}
+
+/* Calculator & AgeCalculator Images Container */
+.container{
+    transition: opacity .3s ease;
+    width: 791px;
+    margin-top: 150px;
+}
+
+/* Age Calculator Box */
+.box2{
+    margin-left: 431px;
+    margin-top: -417px;
+}
+
+/* Content Box & Text */
+figcaption{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    transition: opacity .3s ease;
+    width: 300px;
+}
+    
+.box1:hover img{
+    opacity: 1;
+    background-color: #fff;
+}
+
+.box1:hover figcaption{
+    opacity: 1;
+}
+
+.box2:hover img{
+    opacity: 1;
+}
+
+.box2:hover figcaption{
+    opacity: 1;
+}
