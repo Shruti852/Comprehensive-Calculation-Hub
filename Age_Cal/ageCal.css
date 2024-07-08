@@ -1,0 +1,145 @@
+/* Universal Changes */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #383232;
+}
+
+/* Header or Navbar Changes */
+.bg{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5d5f61;
+    box-shadow: 0 0 20px #000;
+}
+
+.logo{
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+/* "AGE CALCULATOR(Logo)" Changes */
+.logobar{
+    list-style: none;
+    display: flex;
+    pointer-events: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: #000;
+    margin-right: 1159px;
+}
+
+/* For Box */
+.container{
+    margin-top: 150px;
+    width: 640px;
+    height: auto;
+    border-radius: 0px;
+    background-color: #6f7172; /* Color of Full Box */
+    border-radius: 0px;
+}
+
+/* Changes in Heading Box */
+.base{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+
+/* Changes in Date, Month, Year With Boxes */
+.block{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+/* Changes in Heading Box "Age Calculator" */
+.base h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px #9f9c9d; /* Color of Dividing Line-Age Calculator Box & Date,Month,Year Box */
+    background: #000; /* Background Color of Heading Box */
+    color: #fff; /* COlor of Heading-"Age Calculator" */
+    padding: 17px;
+}
+
+/* Changes in Date, Month, Year Titles Text */
+.title{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    margin-top: 30px;
+    margin-left: 80px;
+    color: #000;
+}
+
+/* Changes in Date Box, Month Box, Year Box Before Typing */
+input[type="text"]{
+    width: 140px;
+    min-height: 50px;
+    margin-left: 38px;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: #494a49; /* Color of Boxes Before Entering Value */
+    border: 2px solid#000; /* Color of Boxes-Border Before Entering Value */
+    color: #fff; /* Color of Enter Value in Date,Month,Year Boxes */
+}
+/* Changes in Date Box, Month Box, Year Box While Typing */
+input[type="text"]:focus{
+    background-color: #d3d6d5; /* Color Change of Boxes When We Click Them */
+    border: 2px solid #1f2327; /* Color Change of Boxes-Border When We Click Them */
+    color: #000;
+    outline: none;
+}
+
+/* Changes in Submit Button */
+input[type="button"]{
+    width: 150px;
+    margin-left: 233px;
+    margin-top: 45px;
+    outline: none;
+    border: none;
+    background-color: #000; /* Color of Submit Background OR Color of Submit Button */
+    color: #fff; /* Color of only "Submit" */
+    padding: 14px 16px;
+    text-align: center;
+    transition: .2s;
+    border-radius: 5px;
+    font-size: 16px
+}
+
+/* Submit Button Hover */
+input[type="button"]:hover{
+    background-color: #1f2429; /* Color Change When Mouse Touch Button */
+    color: #fff;
+}
+
+/* Changes in Output */
+#age{
+    display: block;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 23px;
+    text-align: center;
+    line-height: 1.5;
+    color: #000; /* Color of Output */
+}
